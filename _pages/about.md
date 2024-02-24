@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Sun Rui: Personal Website"
+title: "George Sun(Sun Rui)"
 author_profile: true
 redirect_from: 
   - /about/
@@ -9,6 +9,6 @@ redirect_from:
 
 This is my personal website, welcome! This is [My Github repository](https://github.com/George-Sun-ECON).
 
-About Me
+About Me  
 ======
-I'm now a PhD student focusing on open macroeconomics and international finance. My current research is about China's official lending and its economics consequences on debt sustainability and associated growth effect.
+I am now a PhD student focusing on open macroeconomics and international finance. My current research is about China official lending and its economics consequences on debt sustainability and associated growth effect.
