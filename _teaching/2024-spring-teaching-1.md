@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2024-spring-teaching-1
 venue: "National School of Development, Peking University"
-date: 2024
+date: 2024-2-18
 location: "Beijing, China"
 ---
 
