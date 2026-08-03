@@ -211,6 +211,7 @@ a { color: inherit; text-decoration: none; }
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: 25% center;
   display: block;
   filter: saturate(1.02) contrast(1.02);
 }
