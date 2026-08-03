@@ -218,7 +218,7 @@ a { color: inherit; text-decoration: none; }
 
 /* ---------------- Content pages ---------------- */
 .content { padding: 88px 0 110px; }
-.content-inner { max-width: 760px; }
+.content-inner { max-width: 920px; }
 .page-eyebrow {
   font-size: 12px;
   font-weight: 600;
