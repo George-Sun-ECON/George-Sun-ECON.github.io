@@ -252,6 +252,31 @@ a { color: inherit; text-decoration: none; }
   color: var(--muted);
 }
 
+/* publication sub-blocks */
+.pub-block { margin-top: 54px; }
+.pub-block:first-of-type { margin-top: 6px; }
+.block-title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 27px;
+  letter-spacing: -0.012em;
+  color: var(--ink);
+  margin-bottom: 4px;
+}
+.block-rule {
+  width: 42px;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+  margin: 14px 0 6px;
+}
+.block-empty {
+  font-style: italic;
+  font-size: 16px;
+  color: var(--muted);
+  padding: 20px 0 8px;
+}
+
 /* paper entry */
 .paper {
   padding: 30px 0;
