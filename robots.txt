@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://George-Sun-ECON.github.io/sitemap.xml
