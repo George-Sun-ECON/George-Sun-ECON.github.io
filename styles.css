@@ -324,7 +324,6 @@ a { color: inherit; text-decoration: none; }
   transition: color 0.2s ease;
 }
 .footer-links a:hover { color: var(--ink); }
-.footer-links a.scholar { color: var(--navy); font-weight: 600; }
 
 /* ---------------- Responsive ---------------- */
 @media (max-width: 900px) {
