@@ -211,13 +211,14 @@ a { color: inherit; text-decoration: none; }
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: 25% center;
   display: block;
   filter: saturate(1.02) contrast(1.02);
 }
 
 /* ---------------- Content pages ---------------- */
 .content { padding: 88px 0 110px; }
-.content-inner { max-width: 760px; }
+.content-inner { max-width: 920px; }
 .page-eyebrow {
   font-size: 12px;
   font-weight: 600;
@@ -249,6 +250,31 @@ a { color: inherit; text-decoration: none; }
   font-size: 16px;
   line-height: 1.75;
   color: var(--muted);
+}
+
+/* publication sub-blocks */
+.pub-block { margin-top: 54px; }
+.pub-block:first-of-type { margin-top: 6px; }
+.block-title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 27px;
+  letter-spacing: -0.012em;
+  color: var(--ink);
+  margin-bottom: 4px;
+}
+.block-rule {
+  width: 42px;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+  margin: 14px 0 6px;
+}
+.block-empty {
+  font-style: italic;
+  font-size: 16px;
+  color: var(--muted);
+  padding: 20px 0 8px;
 }
 
 /* paper entry */
@@ -323,7 +349,6 @@ a { color: inherit; text-decoration: none; }
   transition: color 0.2s ease;
 }
 .footer-links a:hover { color: var(--ink); }
-.footer-links a.scholar { color: var(--navy); font-weight: 600; }
 
 /* ---------------- Responsive ---------------- */
 @media (max-width: 900px) {
