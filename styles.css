@@ -311,6 +311,24 @@ a { color: inherit; text-decoration: none; }
   color: var(--navy);
   margin-top: 8px;
 }
+.paper-conf {
+  list-style: none;
+  margin: 6px 0 0;
+  padding: 0;
+}
+.paper-conf li {
+  position: relative;
+  padding-left: 18px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+.paper-conf li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
 
 /* ---------------- Footer ---------------- */
 .site-footer {
