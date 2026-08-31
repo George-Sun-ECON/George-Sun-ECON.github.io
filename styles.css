@@ -357,6 +357,7 @@ a { color: inherit; text-decoration: none; }
   line-height: 1.7;
   color: var(--muted);
 }
+.paper-versions { margin-top: 8px; }
 .paper-meta a {
   color: var(--accent);
   font-weight: 600;
