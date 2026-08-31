@@ -156,6 +156,12 @@ a { color: inherit; text-decoration: none; }
   margin-bottom: 40px;
 }
 .research-line strong { color: var(--ink); font-weight: 600; }
+.research-line a {
+  color: var(--navy);
+  font-weight: 600;
+  border-bottom: 1.5px solid color-mix(in srgb, var(--navy) 35%, transparent);
+}
+.research-line a:hover { border-color: var(--navy); }
 
 .cta-row { display: flex; gap: 16px; flex-wrap: wrap; }
 .btn {
